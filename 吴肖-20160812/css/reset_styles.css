@@ -1,0 +1,77 @@
+*{
+	box-sizing: border-box;
+}
+/*部分css样式重置*/
+html {
+ 	color: #000;
+ 	background: #FFF;
+}
+/*边框样式*/
+body,div,dl,
+dt,dd,ul,ol,li,
+h1,h2,h3,h4,h5,h6,
+form,input,button,textarea,
+p,th,td,img,em,a,span {
+	margin: 0;
+	padding: 0;
+	outline: 0; 
+}
+span,a{
+	display: block;
+}
+/*表格样式*/
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*图片和按钮的边框消除样式*/
+img button{
+	border: none;
+}
+/*字体样式*/
+h1,h2,h3,h4,h5,h6,
+em,strong,span,a,i,b,
+input,button,textarea,select,
+dl,dt,dd,ul,ol,li,td,th,tr,p{
+    margin: 0;    
+    padding: 0;    
+    border: 0;    
+    outline: 0;    
+    font-weight: inherit;    
+    font-style: inherit;    
+    font-size: 12px;    
+    font-family: inherit;    
+    vertical-align: baselinebaseline; 
+    line-height: 12px; 
+}
+li {
+	list-style: none;
+}
+
+th {
+	text-align: left;
+}
+/*a标签的样式*/
+a{
+	text-decoration: none;
+	color: black;
+	font-weight: normal;
+	font-size: 12px;
+}
+ /*清除浮动*/
+.clearfix:before{
+	display: table;
+  	content: "";
+}
+.clearfix:after{
+	display: table;
+  	content: "";
+	clear: both;
+}
+
+.hidden{
+	display: none;
+}
+.show{
+	display: block;
+}
